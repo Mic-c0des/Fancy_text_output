@@ -1,0 +1,1 @@
+This is a simple text cycler that prints messages one letter at a time cycling from a to the desired letter. This is heavily inspired by the introductions in early 2000's movies when the opening scene spells out a location like in transformers(2007).
