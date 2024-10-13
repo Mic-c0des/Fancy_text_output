@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class Main {
-
+        /*
+        Main is just a demo area and is not needed if you wat this in your own program
+         */
         public static void main(String[] args) throws InterruptedException {
             String testStr;
             Scanner in = new Scanner(System.in);
@@ -11,12 +13,11 @@ public class Main {
             textCycle(testStr);
         }
 
-        /*
-        Method to take a sentence
-        and print each letter on at a time
-        cycling from a to the desired letter.
-         */
-
+    /*
+    Method to take a sentence
+    and print each letter on at a time
+    cycling from a to the desired letter.
+    */
     public static void textCycle(String strIn) throws InterruptedException {
             // Array of the alphabet
             char[] abcs = new char[]{'a', 'b', 'c', 'd', 'e',
@@ -24,7 +25,6 @@ public class Main {
                     'l', 'm', 'n', 'o', 'p', 'q',
                     'r', 's', 't', 'u', 'v', 'w',
                     'x', 'y', 'z'};
-
 
             for(int i=0; i<=strIn.length(); i++){
                 if(i==0){
@@ -63,6 +63,4 @@ public class Main {
                 }
             }
         }
-
-
 }
